@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_vmgkhjk",
+        "template_1460jqv",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Megan Rodriguez",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "megann1006@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "O8nDSVgivalB9JzC7"
       )
       .then(
         () => {
@@ -98,7 +98,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
