@@ -17,6 +17,7 @@ import {
     docker,
     meta,
     hackreactor,
+    me,
     katy,
     shopify,
     carrent,
@@ -33,6 +34,10 @@ export const navLinks = [
     {
         id: "projects",
         title: "Projects",
+    },
+    {
+        id: "resume",
+        title: "Resume",
     },
     {
         id: "contact",
@@ -177,6 +182,15 @@ const testimonials = [
     // },
 ];
 
+const myWords = [
+    {
+        text: "Here you can download my Resume by clicking on Download button. I will be glad to our cooperation.",
+        name: "Megan Rodriguez",
+        designation: "The owner",
+        image: me,
+    },
+]
+
 const projects = [
     {
         name: "Car Rent",
@@ -243,4 +257,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, myWords, projects };

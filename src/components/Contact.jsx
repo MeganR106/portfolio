@@ -121,6 +121,9 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <p className='my-2'>
+  Or visit me on <a href='https://www.linkedin.com/in/megan-rodriguez10//' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+</p>
       </motion.div>
 
       <motion.div
