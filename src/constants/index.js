@@ -20,11 +20,15 @@ import {
     me,
     katy,
     shopify,
-    carrent,
+    greenthumb,
     jobit,
     tripguide,
     threejs,
 } from "../assets";
+
+export const myGithub = "https://github.com/MeganR106"
+
+export const myGitlab = "https://gitlab.com/megann1006"
 
 export const navLinks = [
     {
@@ -135,32 +139,6 @@ const experiences = [
             "Worked cooperatively with 3 other teachers to modify curricula for special education students according to guidelines established in Individual Education Plans (IEP) that allowed the student to learn on pace with district expectations.",
         ],
     },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#383E56",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#E6DEDD",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
 ];
 
 const testimonials = [
@@ -172,19 +150,11 @@ const testimonials = [
         // company: "Acme Co",
         image: "https://media.licdn.com/dms/image/D5603AQFs-0Bx1URGcA/profile-displayphoto-shrink_800_800/0/1675178011680?e=1684972800&v=beta&t=eS3EdQWpJE1G4lpqt1wBFD6HMsseaTOE7nrfqMbjkc8",
     },
-    // {
-    //     testimonial:
-    //         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    //     name: "Matthew Sun",
-    //     designation: "Full Stack Software Engineer",
-    //     company: "456 Enterprises",
-    //     image: "https://randomuser.me/api/portraits/women/6.jpg",
-    // },
 ];
 
 const myWords = [
     {
-        text: "Here you can download my Resume by clicking on Download button. I will be glad to our cooperation.",
+        text: "Here you can download my Resume by clicking on the Download button.",
         name: "Megan Rodriguez",
         designation: "The owner",
         image: me,
@@ -193,30 +163,9 @@ const myWords = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Green Thumb",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "House plant web application to view plant details and favorite plants to see quick care needs.",
         tags: [
             {
                 name: "react",
@@ -227,33 +176,34 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "bootstrap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: greenthumb,
+        source_code_link: "https://gitlab.com/megann1006/module3-project-gamma",
+        demo_link: "https://megann1006.gitlab.io/module3-project-gamma"
+    },
+    {
+        name: "CarCar",
+        description:
+            "Web application that manages everything related to the inventory of an automobile dealership, service center, sales, customers, and employees.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "django",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
                 color: "pink-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://gitlab.com/megann1006/carcar",
     },
 ];
 

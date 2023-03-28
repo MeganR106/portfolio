@@ -5,7 +5,7 @@ import { styles } from "../styles"
 import { SectionWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion"
 import { myWords } from "../constants"
-import ResumeDoc from "../assets/resume.pdf"
+import ResumeDoc from "../assets/MeganRodriguezResume.pdf"
 
 const Card = ({ index, text, name, designation, company, image }) => (
     <motion.div
