@@ -28,8 +28,7 @@ import hackreactor from "./company/hackreactor.png";
 import katy from "./company/katy.jpg";
 
 import greenthumb from "./greenthumb.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carcar from "./carcar.png";
 
 import me from "./me.jpg";
 
@@ -62,6 +61,5 @@ export {
   hackreactor,
   katy,
   greenthumb,
-  jobit,
-  tripguide,
+  carcar,
 };

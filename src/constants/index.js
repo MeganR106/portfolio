@@ -21,8 +21,7 @@ import {
     katy,
     shopify,
     greenthumb,
-    jobit,
-    tripguide,
+    carcar,
     threejs,
 } from "../assets";
 
@@ -185,7 +184,7 @@ const projects = [
         demo_link: "https://megann1006.gitlab.io/module3-project-gamma"
     },
     {
-        name: "CarCar",
+        name: "CarCar (WiP)",
         description:
             "Web application that manages everything related to the inventory of an automobile dealership, service center, sales, customers, and employees.",
         tags: [
@@ -202,7 +201,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: carcar,
         source_code_link: "https://gitlab.com/megann1006/carcar",
     },
 ];
