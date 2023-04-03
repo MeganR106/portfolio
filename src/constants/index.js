@@ -184,7 +184,7 @@ const projects = [
         demo_link: "https://megann1006.gitlab.io/module3-project-gamma"
     },
     {
-        name: "CarCar (WiP)",
+        name: "CarCar",
         description:
             "Web application that manages everything related to the inventory of an automobile dealership, service center, sales, customers, and employees.",
         tags: [
