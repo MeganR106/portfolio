@@ -54,8 +54,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   hackreactor,
   katy,
   greenthumb,
