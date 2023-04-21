@@ -141,7 +141,7 @@ const experiences = [
     },
 ];
 
-const readMoreLink = '<a href="' + myLinkedIn + '">Read more</a>';
+const readMoreLink = `<a href="${myLinkedIn}">Read more</a>`;
 
 const testimonials = [
     {
