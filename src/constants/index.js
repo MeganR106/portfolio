@@ -141,7 +141,7 @@ const experiences = [
     },
 ];
 
-const readMoreLink = <a href={myLinkedIn}>Read more</a>;
+const readMoreLink = '<a href="' + myLinkedIn + '">Read more</a>';
 
 const testimonials = [
     {
@@ -155,7 +155,7 @@ const testimonials = [
     {
         testimonial:
             "I am thrilled to recommend Megan for a position as a software engineer. Megan is a talented and motivated individual with exceptional skills in teamwork, learning, problem-solving, creativity, and design. She is highly driven and deserves a look at any opportunity in the SWE world. Throughout their academic career, Megan demonstrated a passion for software development... ",
-        readMoreLink: <a href={myLinkedIn}>Read more</a>,
+        readMoreLink: "<a href={myLinkedIn}>Read more</a>",
         name: "Anton DeCesare",
         designation: "Full Stack Software Engineer",
         // company: "Acme Co",
