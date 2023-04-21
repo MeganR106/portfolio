@@ -147,6 +147,22 @@ const testimonials = [
         // company: "Acme Co",
         image: "https://media.licdn.com/dms/image/D5603AQFs-0Bx1URGcA/profile-displayphoto-shrink_800_800/0/1675178011680?e=1684972800&v=beta&t=eS3EdQWpJE1G4lpqt1wBFD6HMsseaTOE7nrfqMbjkc8",
     },
+    {
+        testimonial:
+            "I am thrilled to recommend Megan for a position as a software engineer. Megan is a talented and motivated individual with exceptional skills in teamwork, learning, problem-solving, creativity, and design. She is highly driven and deserves a look at any opportunity in the SWE world.
+
+            Throughout their academic career, Megan demonstrated a passion for software development and a natural talent for working collaboratively with others. They possess strong communication skills and are adept at explaining complex concepts in a clear and concise manner. Megan's talent for teaching and mentoring makes them an invaluable asset to any team, and their willingness to learn and grow is commendable.
+
+            Megan also possesses exceptional problem-solving skills and a creative approach to design. They consistently demonstrate a willingness to take on new challenges and think outside the box to find innovative solutions to complex problems. Megan's ability to identify potential issues and come up with effective solutions is a valuable asset to any team. It is also notable that Megan is open to giving and receiving assistance when the time calls for it.
+
+            In addition to their technical skills, Megan also has a keen eye for design and a talent for creating visually appealing and user-friendly interfaces. Their ability to balance form and function ensures that the end product not only looks good but also works well for the end user.
+
+            Overall, Megan is an exceptional candidate for their first position as a software engineer. They possess a unique combination of teamwork, learning, problem-solving, creativity, and design skills that make them an asset to any team. I highly recommend Megan and have no doubt that they will make a positive impact on any project they work on.",
+        name: "Anton DeCesare",
+        designation: "Full Stack Software Engineer",
+        // company: "Acme Co",
+        image: "https://media.licdn.com/dms/image/D4E35AQE6VOU8JAEk_A/profile-framedphoto-shrink_800_800/0/1679433245389?e=1682719200&v=beta&t=dNdenu7LCYtr9sHN_OUq-eNpygqu8maJTqdSW2iOAmQ",
+    },
 ];
 
 const myWords = [
