@@ -213,6 +213,7 @@ const projects = [
         ],
         image: carcar,
         source_code_link: "https://gitlab.com/megann1006/carcar",
+        demo_link: "https://meganrodriguez-carcar.vercel.app/",
     },
 ];
 
