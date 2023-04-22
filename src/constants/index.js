@@ -156,7 +156,7 @@ const testimonials = [
         designation: "Full Stack Software Engineer",
         image: "https://media.licdn.com/dms/image/D4E35AQE6VOU8JAEk_A/profile-framedphoto-shrink_800_800/0/1679433245389?e=1682719200&v=beta&t=dNdenu7LCYtr9sHN_OUq-eNpygqu8maJTqdSW2iOAmQ",
         linkedin: "https://www.linkedin.com/in/anton-decesare/",
-        readMoreLink: `<a href="https://www.linkedin.com/in/megan-rodriguez10/">Read more</a>`,
+        readMoreLink: "https://www.linkedin.com/in/megan-rodriguez10/",
     },
 ];
 
