@@ -13,13 +13,18 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  readMoreLink,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <p className='text-white font-black text-[48px]'>"</p>
-
+    {readMoreLink && ( // Conditionally render readMoreLink based on the value of readMoreLink prop
+        <a href={readMoreLink} target="_blank" className='text-blue-500 text-sm mt-2'>
+          Read more
+        </a>
+      )}
     <div className='mt-1'>
       <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
 
@@ -32,12 +37,13 @@ const FeedbackCard = ({
             {designation}  {company}
           </p>
         </div>
-
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+        <a href={linkedin} target="_blank">
+          <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className='w-10 h-10 rounded-full object-cover'
+          />
+        </a>
       </div>
     </div>
   </motion.div>
