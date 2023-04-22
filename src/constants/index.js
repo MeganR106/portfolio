@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import {
     mobile,
     backend,
@@ -157,7 +158,7 @@ const testimonials = [
         name: "Anton DeCesare",
         designation: "Full Stack Software Engineer",
         image: "https://media.licdn.com/dms/image/D4E35AQE6VOU8JAEk_A/profile-framedphoto-shrink_800_800/0/1679433245389?e=1682719200&v=beta&t=dNdenu7LCYtr9sHN_OUq-eNpygqu8maJTqdSW2iOAmQ",
-        readMoreLink: `<a href="${myLinkedIn}">Read more</a>`,
+        readMoreLink: <a href={myLinkedIn}>Read more</a>,
     },
 ];
 
