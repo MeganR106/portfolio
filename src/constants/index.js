@@ -149,19 +149,18 @@ const testimonials = [
             "Megan is a pleasure to work with; she is a skilled software engineer who can deliver an impressive amount of quality work in a timely manner while keeping up team morale with her positive attitude and fresh ideas. Megan is capable of picking up new skills quickly and has shown on multiple occasions that she can use those skills to help others.",
         name: "Matthew Sun",
         designation: "Full Stack Software Engineer",
-        // company: "Acme Co",
         image: "https://media.licdn.com/dms/image/D5603AQFs-0Bx1URGcA/profile-displayphoto-shrink_800_800/0/1675178011680?e=1684972800&v=beta&t=eS3EdQWpJE1G4lpqt1wBFD6HMsseaTOE7nrfqMbjkc8",
     },
     {
         testimonial:
             "I am thrilled to recommend Megan for a position as a software engineer. Megan is a talented and motivated individual with exceptional skills in teamwork, learning, problem-solving, creativity, and design. She is highly driven and deserves a look at any opportunity in the SWE world. Throughout their academic career, Megan demonstrated a passion for software development... ",
-        readMoreLink: "<a href={myLinkedIn}>Read more</a>",
         name: "Anton DeCesare",
         designation: "Full Stack Software Engineer",
-        // company: "Acme Co",
-        image: "https://media.licdn.com/dms/image/D4E35AQE6VOU8JAEk_A/profile-framedphoto-shrink_800_800/0/1679433245389?e=1682719200&v=beta&t=dNdenu7LCYtr9sHN_OUq-eNpygqu8maJTqdSW2iOAmQ"
+        image: "https://media.licdn.com/dms/image/D4E35AQE6VOU8JAEk_A/profile-framedphoto-shrink_800_800/0/1679433245389?e=1682719200&v=beta&t=dNdenu7LCYtr9sHN_OUq-eNpygqu8maJTqdSW2iOAmQ",
+        readMoreLink: `<a href="${myLinkedIn}">Read more</a>`,
     },
 ];
+
 
 const myWords = [
     {
